@@ -6,7 +6,6 @@ export default function CTA() {
   const controls = useAnimation();
 
   const handleHoverStart = () => {
-    setIsHovered(true);
     controls.start({
       x: [0, 8, 0],
       opacity: 1,
@@ -22,7 +21,6 @@ export default function CTA() {
   };
 
   const handleHoverEnd = () => {
-    setIsHovered(false);
     controls.start({
       x: 0,
       opacity: 0,
