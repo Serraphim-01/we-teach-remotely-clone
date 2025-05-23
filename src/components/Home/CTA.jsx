@@ -3,7 +3,6 @@ import { motion, useAnimation } from 'framer-motion';
 import { FaArrowRight } from 'react-icons/fa';
 
 export default function CTA() {
-  const [isHovered, setIsHovered] = useState(false);
   const controls = useAnimation();
 
   const handleHoverStart = () => {
