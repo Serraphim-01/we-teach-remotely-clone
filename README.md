@@ -1,4 +1,5 @@
 # We Teach Remotely - Cloned and Redesigned Homepage
+## Live Demo: https://weteachremotely-clone.netlify.app/
 
 This project is a cloned and redesigned version of the homepage of the website [weteachremotely.com](https://weteachremotely.com). The goal of this project is to replicate the look and feel of the original homepage while improving the design and user experience using modern web technologies.
 
