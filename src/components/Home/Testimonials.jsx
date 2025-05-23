@@ -43,12 +43,6 @@ export default function Testimonials() {
     };
   }, []);
 
-  const getVisibleTestimonials = () => {
-    return [...Array(visibleCount)].map((_, i) => {
-      return testimonials[(index + i) % testimonials.length];
-    });
-  };
-
   return (
     <section className="py-16 px-6 bg-white dark:bg-gray-800 text-center">
       <h2 className="text-5xl text-center font-bold text-black dark:text-white mb-12">Testimonials</h2>
